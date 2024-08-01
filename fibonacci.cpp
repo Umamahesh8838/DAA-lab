@@ -1,6 +1,6 @@
 #include<iostream>
 using namespace std;
-int fiboiter(int n){
+int fiboiter(int n){                //iteration
     int a=0 , b=1 , c;
     cout<<a<<" ";
     cout<<b<<" ";
@@ -11,7 +11,7 @@ int fiboiter(int n){
         b=c;
     }
 }
-int fiborecur(int n){
+int fiborecur(int n){   //recursion
     if(n==0)
         return 0;
     if(n==1)
